@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		01EB6BA3389C2A7B22D121AFB33FFD33 /* Pods-OTFirstPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB36DA061EF78DCF3B35ED9C138A432F /* Pods-OTFirstPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7F5C86DCDB50574C474782BCEF1CD4 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBEE94924FDA41ABF61CB0398D499F /* MyView.swift */; };
 		22E92AD7627B6F6466D639F77F64F338 /* Pods-OTFirstPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A0352CF32819FD7387422D73BF14A /* Pods-OTFirstPod_Example-dummy.m */; };
+		2781AF26189C42078E8A0DD4C4E8B970 /* OTFirstPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286FF865A84C2E8BBFCF3D163C7C7514 /* OTFirstPod-dummy.m */; };
 		4C7EA77A7FAD8ADC8FE0DB08442A6B0B /* Pods-OTFirstPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F7719A3592717B074596E96C53677 /* Pods-OTFirstPod_Tests-dummy.m */; };
 		66EA079DA6FB28E737341219211C356C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7C433E4820060C8800905A50 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C433E4720060C8800905A50 /* MyView.swift */; };
-		7E56B61D858B084361CED9242B972F94 /* OTFirstPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 420B79643D86A20CCBCA10DCDBD1414F /* OTFirstPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E56B61D858B084361CED9242B972F94 /* OTFirstPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A693EB77E537D7BD0E9FEFB6887B20 /* OTFirstPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		875B5D093D59A030B837F23843D9E25A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AB4CB3A82DB9312EAB1EA7045B27A3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C1701E02B6C43A03976F4BB2D81C1C78 /* OTFirstPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0861A3C00450EDC249EE39B531D4891 /* OTFirstPod-dummy.m */; };
 		C5E3E860B6E8D3CBEABCCDBCE2699F4E /* Pods-OTFirstPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4717EBF5AA5FA3ECFFD2F6F438957ADE /* Pods-OTFirstPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,36 +32,36 @@
 /* Begin PBXFileReference section */
 		0890E1510151F2279C797C43D613EFDD /* Pods-OTFirstPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTFirstPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0B7D191B7E5EC2D8268EAE895B38EF7C /* Pods-OTFirstPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTFirstPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0E93AB20F311E6687240899E2211AA93 /* OTFirstPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTFirstPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E93AB20F311E6687240899E2211AA93 /* OTFirstPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTFirstPod.framework; path = OTFirstPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		109FC38D0708C0BB3A30E4F247B2CF9A /* Pods-OTFirstPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTFirstPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		15B242D9766DA1286D30ADC27D667EE0 /* OTFirstPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTFirstPod.xcconfig; sourceTree = "<group>"; };
+		10A693EB77E537D7BD0E9FEFB6887B20 /* OTFirstPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTFirstPod-umbrella.h"; sourceTree = "<group>"; };
 		24CA1807D280100C0BC401C8DDECFB08 /* Pods-OTFirstPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTFirstPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		286FF865A84C2E8BBFCF3D163C7C7514 /* OTFirstPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTFirstPod-dummy.m"; sourceTree = "<group>"; };
+		2ABBEE94924FDA41ABF61CB0398D499F /* MyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyView.swift; path = OTFirstPod/Classes/MyView.swift; sourceTree = "<group>"; };
 		2B9026EFE49EF40129D5B097CBE8D5F5 /* Pods-OTFirstPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTFirstPod_Example-resources.sh"; sourceTree = "<group>"; };
 		3379046736DC0163E843360F0101F13E /* Pods-OTFirstPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTFirstPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		4051DBFAE27D6E1FEE6D59C6E1FE724A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		420B79643D86A20CCBCA10DCDBD1414F /* OTFirstPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTFirstPod-umbrella.h"; sourceTree = "<group>"; };
-		44BEBDDF18E4FBAFFD7D21ADDE96484B /* Pods_OTFirstPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFirstPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BEBDDF18E4FBAFFD7D21ADDE96484B /* Pods_OTFirstPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTFirstPod_Example.framework; path = "Pods-OTFirstPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4717EBF5AA5FA3ECFFD2F6F438957ADE /* Pods-OTFirstPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTFirstPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		47310A4BB1F612CB2FBE64DD6B9004AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C6BDF1598E92247B45D99DAB2D8D653 /* OTFirstPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTFirstPod-prefix.pch"; sourceTree = "<group>"; };
 		570A0352CF32819FD7387422D73BF14A /* Pods-OTFirstPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTFirstPod_Example-dummy.m"; sourceTree = "<group>"; };
 		61CC30E9C88DBE90F50B109ADD690A51 /* Pods-OTFirstPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTFirstPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C9C18E4D2B3CD09860273919238C785 /* Pods_OTFirstPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFirstPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675134F8EF9F5F9021FFF72FC32A64E4 /* OTFirstPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OTFirstPod.modulemap; sourceTree = "<group>"; };
+		6C9C18E4D2B3CD09860273919238C785 /* Pods_OTFirstPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTFirstPod_Tests.framework; path = "Pods-OTFirstPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4F7719A3592717B074596E96C53677 /* Pods-OTFirstPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTFirstPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		7C433E4720060C8800905A50 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyView.swift; path = OTFirstPod/Classes/MyView.swift; sourceTree = "<group>"; };
-		828902F210EE59ED7D430FBE8DAB5B4A /* OTFirstPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OTFirstPod.modulemap; sourceTree = "<group>"; };
-		83AF97F6B1A9546811B7BC2DBA129098 /* Pods-OTFirstPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OTFirstPod_Tests.modulemap"; sourceTree = "<group>"; };
+		83AF97F6B1A9546811B7BC2DBA129098 /* Pods-OTFirstPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OTFirstPod_Tests.modulemap"; sourceTree = "<group>"; };
 		8CF961B104CE8BBD996608207C16D552 /* Pods-OTFirstPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTFirstPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0861A3C00450EDC249EE39B531D4891 /* OTFirstPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTFirstPod-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAD0E1CF5AA7C4978FDB28AECCD962E6 /* Pods-OTFirstPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTFirstPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AB36DA061EF78DCF3B35ED9C138A432F /* Pods-OTFirstPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTFirstPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		BFD21A41B4948665A7912B3079947F89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4D5AC0C0E51D929B9A4180A58A651E5 /* Pods-OTFirstPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTFirstPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2903CC9D77891E75C2A84AD9393E69C /* Pods-OTFirstPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OTFirstPod_Example.modulemap"; sourceTree = "<group>"; };
+		E45AF78CFD8B6D3DEA286898B4D7EEC0 /* OTFirstPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTFirstPod.xcconfig; sourceTree = "<group>"; };
+		F2903CC9D77891E75C2A84AD9393E69C /* Pods-OTFirstPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OTFirstPod_Example.modulemap"; sourceTree = "<group>"; };
 		FA6BF2518E444FCD8FC39195026CD532 /* Pods-OTFirstPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTFirstPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA851934811C2AC20BE03F3A56CFCB8A /* OTFirstPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTFirstPod-prefix.pch"; sourceTree = "<group>"; };
 		FCDADE8510E539A29F805860D9A06774 /* Pods-OTFirstPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTFirstPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FF9B1F860497C5981F4C8618789A1D2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,26 +119,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		38D40D57E84E67B297F4DF8EA8B0B08C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF9B1F860497C5981F4C8618789A1D2B /* Info.plist */,
-				828902F210EE59ED7D430FBE8DAB5B4A /* OTFirstPod.modulemap */,
-				15B242D9766DA1286D30ADC27D667EE0 /* OTFirstPod.xcconfig */,
-				A0861A3C00450EDC249EE39B531D4891 /* OTFirstPod-dummy.m */,
-				4C6BDF1598E92247B45D99DAB2D8D653 /* OTFirstPod-prefix.pch */,
-				420B79643D86A20CCBCA10DCDBD1414F /* OTFirstPod-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OTFirstPod";
-			sourceTree = "<group>";
-		};
 		4A76FFBD670AE0097D7CCB0A49BE1C85 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E42CCB3B407B10B4AB6F91CDE53CE204 /* OTFirstPod */,
+				622C937FD229803D0395DA716898E845 /* OTFirstPod */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		622C937FD229803D0395DA716898E845 /* OTFirstPod */ = {
+			isa = PBXGroup;
+			children = (
+				2ABBEE94924FDA41ABF61CB0398D499F /* MyView.swift */,
+				7D56477133A7462D3F991406A48EE6B8 /* Support Files */,
+			);
+			name = OTFirstPod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6702B8A850EA3015C1EA15439715312C /* Products */ = {
@@ -149,6 +145,20 @@
 				6C9C18E4D2B3CD09860273919238C785 /* Pods_OTFirstPod_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7D56477133A7462D3F991406A48EE6B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD21A41B4948665A7912B3079947F89 /* Info.plist */,
+				675134F8EF9F5F9021FFF72FC32A64E4 /* OTFirstPod.modulemap */,
+				E45AF78CFD8B6D3DEA286898B4D7EEC0 /* OTFirstPod.xcconfig */,
+				286FF865A84C2E8BBFCF3D163C7C7514 /* OTFirstPod-dummy.m */,
+				FA851934811C2AC20BE03F3A56CFCB8A /* OTFirstPod-prefix.pch */,
+				10A693EB77E537D7BD0E9FEFB6887B20 /* OTFirstPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OTFirstPod";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -194,16 +204,6 @@
 			);
 			name = "Pods-OTFirstPod_Tests";
 			path = "Target Support Files/Pods-OTFirstPod_Tests";
-			sourceTree = "<group>";
-		};
-		E42CCB3B407B10B4AB6F91CDE53CE204 /* OTFirstPod */ = {
-			isa = PBXGroup;
-			children = (
-				7C433E4720060C8800905A50 /* MyView.swift */,
-				38D40D57E84E67B297F4DF8EA8B0B08C /* Support Files */,
-			);
-			name = OTFirstPod;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 975656E0EA7D09B89083B240D5938B8E /* Build configuration list for PBXNativeTarget "OTFirstPod" */;
 			buildPhases = (
-				0787CC00F5E7B296C49F68BCE5A1E77E /* Sources */,
+				BCE8ED50EF4B25D24BD9885B261B22BA /* Sources */,
 				579F39BD1B76B06DFBEF8D6E8DD1F1A1 /* Frameworks */,
 				D994DE33352EC9F8EF352F64454859F9 /* Headers */,
 			);
@@ -317,15 +317,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0787CC00F5E7B296C49F68BCE5A1E77E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C433E4820060C8800905A50 /* MyView.swift in Sources */,
-				C1701E02B6C43A03976F4BB2D81C1C78 /* OTFirstPod-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D44AEE7B95C723F18C7227056701EDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +330,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C7EA77A7FAD8ADC8FE0DB08442A6B0B /* Pods-OTFirstPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE8ED50EF4B25D24BD9885B261B22BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7F5C86DCDB50574C474782BCEF1CD4 /* MyView.swift in Sources */,
+				2781AF26189C42078E8A0DD4C4E8B970 /* OTFirstPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +389,7 @@
 		};
 		33345190FF4C8AC7EFAD2CF4D9F0E2EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15B242D9766DA1286D30ADC27D667EE0 /* OTFirstPod.xcconfig */;
+			baseConfigurationReference = E45AF78CFD8B6D3DEA286898B4D7EEC0 /* OTFirstPod.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,7 +568,7 @@
 		};
 		9B8EE4A3EB80689C7314AB580ACA5756 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15B242D9766DA1286D30ADC27D667EE0 /* OTFirstPod.xcconfig */;
+			baseConfigurationReference = E45AF78CFD8B6D3DEA286898B4D7EEC0 /* OTFirstPod.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

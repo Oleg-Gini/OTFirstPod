@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-My first pod
+My first pod kfhjsdhfs ehufhdsjkfh hiuefrgewufrw yiuwerguewgr
                        DESC
 
   s.homepage         = 'https://github.com/Oleg-Gini/OTFirstPod'
