@@ -1,0 +1,6 @@
+framework module OTFirstPod {
+  umbrella header "OTFirstPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
